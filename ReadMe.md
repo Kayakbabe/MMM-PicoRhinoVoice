@@ -1,7 +1,7 @@
 # MMM-PicoRhinoVoice
 Use this template for creating new MagicMirror² modules.
 
-See the [wiki page](https://github.com/Dennis-Rosenbaum/MMM-Template/wiki) for an in depth overview of how to get started.
+See the [wiki page](https://github.com/Kayakbabe/MMM-PicoRhinoVoice/wiki) for an in depth overview of how to get started.
 
 # MMM-PicoRhinoVoice
 
@@ -17,7 +17,7 @@ In your terminal, go to your [MagicMirror²][mm] Module folder and clone MMM-Pic
 
 ```bash
 cd ~/MagicMirror/modules
-git clone [GitHub url]
+git clone (https://github.com/Kayakbabe/MMM-PicoRhinoVoice.git)
 ```
 
 ### Update
