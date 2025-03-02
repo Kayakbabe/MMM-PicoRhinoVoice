@@ -17,7 +17,7 @@ In your terminal, go to your [MagicMirror²][mm] Module folder and clone MMM-Pic
 
 ```bash
 cd ~/MagicMirror/modules
-git clone (https://github.com/Kayakbabe/MMM-PicoRhinoVoice.git)
+git clone https://github.com/Kayakbabe/MMM-PicoRhinoVoice.git
 ```
 
 ### Update
