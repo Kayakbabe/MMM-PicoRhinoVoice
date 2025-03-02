@@ -1,0 +1,25 @@
+{
+  "name": "MMM-PicoRhinoVoice",
+  "version": "1.0.0",
+  "description": "[Injects voice commands to the MagicMirror by using Picovoice's Rhino node.js application. Works with the MMM-Pages module and the default MagicMirror modules]",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayakbabe/MMM-Rhino.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Kelly Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kayakbabe/MMM-Rhino/issues"
+  },
+  "homepage": "https://github.com/Kayakbabe/MMM-Rhino/",
+  "devDependencies": {
+  }
+}
