@@ -1,25 +1,36 @@
 {
   "name": "MMM-PicoRhinoVoice",
-  "version": "1.0.0",
-  "description": "[Injects voice commands to the MagicMirror by using Picovoice's Rhino node.js application. Works with the MMM-Pages module and the default MagicMirror modules]",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kayakbabe/MMM-Rhino.git"
-  },
-  "keywords": [
-    "template"
-  ],
+  "version": "0.0.3",
   "author": "Kelly Allen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Kayakbabe/MMM-Rhino/issues"
+  "description": "Injects voice commands to the MagicMirror by using Picovoice's Rhino node.js application. Works with the MMM-Pages module and the default MagicMirror modules",
+  "keywords": [
+    "MagicMirror",
+    "Picovoice",
+    "Rhino",
+    "Voice Control",
+    "Voice Commands",
+    "Speech Recognition",
+    "Offline",
+    "Private"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayakbabe/MMM-PicoRhinoVoice.git"
   },
-  "homepage": "https://github.com/Kayakbabe/MMM-Rhino/",
+  "homepage": "https://github.com/Kayakbabe/MMM-PicoRhinoVoice#readme",
+  "bugs": {
+    "url": "https://github.com/Kayakbabe/MMM-PicoRhinoVoice/issues"
+  }, 
+  "main": "MMM-PicoRhinoVoice.js",
+  "dependencies": {
+    "@picovoice/porcupine-node": "^3.0.3",
+    "@picovoice/rhino-node": "^3.0.7",
+   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+
   "devDependencies": {
   }
 }
