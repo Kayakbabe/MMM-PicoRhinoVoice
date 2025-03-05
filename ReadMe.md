@@ -53,7 +53,7 @@ Or you could use all the options:
             debug: false,
             hotword: "mirror",
             sensitivity: 0.7,
-            contextPath: "rhinokelly.rhn",
+            contextPath: "rhinoModel.rhn", // rhino model stored in mm config folder
             accessKey: "undefined", // required value from your own picovoice.com account
             exampleContent: 'Welcome world'
         }
