@@ -49,7 +49,7 @@ Or you could use all the options:
     {
         module: 'MMM-PicoRhinoVoice',
         position: 'lower_third',
-        accessKey: '',
+        accessKey: '', //your own picovoice access key that you obtain from picovoice.com
         config: {
             exampleContent: 'Welcome world'
         }
