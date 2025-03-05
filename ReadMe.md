@@ -49,8 +49,12 @@ Or you could use all the options:
     {
         module: 'MMM-PicoRhinoVoice',
         position: 'lower_third',
-        accessKey: '', //your own picovoice access key that you obtain from picovoice.com
         config: {
+            debug: false,
+            hotword: "mirror",
+            sensitivity: 0.7,
+            contextPath: "rhinokelly.rhn",
+            accessKey: "undefined", // required value from your own picovoice.com account
             exampleContent: 'Welcome world'
         }
     },
